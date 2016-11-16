@@ -121,7 +121,7 @@ function manipulate(){
 	  info.innerHTML = angleInDegrees;
 	
 }
-function saveManipulation(angel,scaleFactor){
+function saveManipulation(){
 	var imageParameters= {rotatingAngle:angleInDegrees, scaleFactor:currentScale};
 	manipulationsStack.push(imageParameters);
 	console.log(manipulationsStack);
